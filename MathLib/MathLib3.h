@@ -6,12 +6,4 @@
 #define API_DECLSPEC  __declspec(dllimport)
 #endif
 
-namespace MathLib2 {
-	API_DECLSPEC class MyMathWrapper2
-	{
-	public:
-		API_DECLSPEC int Add(int a, int b);
-	};
-}
-
-
+extern "C" API_DECLSPEC int Add(int a, int b);
