@@ -9,6 +9,6 @@
 API_DECLSPEC  class MyMath
 {
 public:
-	int Add(int a, int b);
+	API_DECLSPEC int Add(int a, int b);
 };
 
