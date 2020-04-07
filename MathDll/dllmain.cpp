@@ -16,7 +16,7 @@ BOOL APIENTRY DllMain(HMODULE hModule,
 	case DLL_THREAD_DETACH:
 	case DLL_PROCESS_DETACH:
 	{
-		cout << (int)ul_reason_for_call << endl;
+		//cout << (int)ul_reason_for_call << endl;
 
 		break;
 	}
