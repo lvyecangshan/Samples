@@ -42,8 +42,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\yanhongye\Desktop\Samples\MathLib;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\yanhongye\Desktop\Samples\Debug;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\MathLib;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
     <Import Project="$(QtMsBuild)\qt_defaults.props" />
