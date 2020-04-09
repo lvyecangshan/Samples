@@ -17,11 +17,11 @@ int main(int argc, char *argv[])
 	//MyMathWrapper1 m1;
 	MyMathWrapper2 m2;
 
-	//result = m1.Add(1, 2);
+	//result = m1.Add(1, 0);
 
-	Console::WriteLine(m2.Add(1, 2));
+	Console::WriteLine(m2.Add(2, 0));
 
-	Console::WriteLine(Add(1, 2));
+	Console::WriteLine(Add(3, 0));
 
 	return a.exec();
 }

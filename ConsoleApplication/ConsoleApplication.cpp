@@ -12,7 +12,7 @@ int main()
 
 	MyMathWrapper2 m2;
 
-	cout << m2.Add(1, 2) << endl;
+	cout << m2.Add(2, 0) << endl;
 
 	cin.get();
 }
