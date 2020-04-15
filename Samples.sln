@@ -13,6 +13,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtConsoleApplication", "QtC
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication", "ConsoleApplication\ConsoleApplication.vcxproj", "{60F54ED8-D449-4F34-8E3A-09AAD32EAC89}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathDll.UnitTests", "MathDll.UnitTests\MathDll.UnitTests.vcxproj", "{DDC13027-0CAC-42A5-AB10-AB5E26391205}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathLib.UnitTests", "MathLib.UnitTests\MathLib.UnitTests.vcxproj", "{0465ECCD-C9C3-42E4-9536-B88A37D03D1A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathDll.GoogleUnitTests", "MathDll.GoogleUnitTests\MathDll.GoogleUnitTests.vcxproj", "{DD072D09-4465-4B29-9444-5540EE7D1008}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +79,34 @@ Global
 		{60F54ED8-D449-4F34-8E3A-09AAD32EAC89}.Release|x64.Build.0 = Release|x64
 		{60F54ED8-D449-4F34-8E3A-09AAD32EAC89}.Release|x86.ActiveCfg = Release|Win32
 		{60F54ED8-D449-4F34-8E3A-09AAD32EAC89}.Release|x86.Build.0 = Release|Win32
+		{DDC13027-0CAC-42A5-AB10-AB5E26391205}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{DDC13027-0CAC-42A5-AB10-AB5E26391205}.Debug|x64.ActiveCfg = Debug|x64
+		{DDC13027-0CAC-42A5-AB10-AB5E26391205}.Debug|x64.Build.0 = Debug|x64
+		{DDC13027-0CAC-42A5-AB10-AB5E26391205}.Debug|x86.ActiveCfg = Debug|Win32
+		{DDC13027-0CAC-42A5-AB10-AB5E26391205}.Debug|x86.Build.0 = Debug|Win32
+		{DDC13027-0CAC-42A5-AB10-AB5E26391205}.Release|Any CPU.ActiveCfg = Release|Win32
+		{DDC13027-0CAC-42A5-AB10-AB5E26391205}.Release|x64.ActiveCfg = Release|x64
+		{DDC13027-0CAC-42A5-AB10-AB5E26391205}.Release|x64.Build.0 = Release|x64
+		{DDC13027-0CAC-42A5-AB10-AB5E26391205}.Release|x86.ActiveCfg = Release|Win32
+		{DDC13027-0CAC-42A5-AB10-AB5E26391205}.Release|x86.Build.0 = Release|Win32
+		{0465ECCD-C9C3-42E4-9536-B88A37D03D1A}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{0465ECCD-C9C3-42E4-9536-B88A37D03D1A}.Debug|x64.ActiveCfg = Debug|Win32
+		{0465ECCD-C9C3-42E4-9536-B88A37D03D1A}.Debug|x86.ActiveCfg = Debug|Win32
+		{0465ECCD-C9C3-42E4-9536-B88A37D03D1A}.Debug|x86.Build.0 = Debug|Win32
+		{0465ECCD-C9C3-42E4-9536-B88A37D03D1A}.Release|Any CPU.ActiveCfg = Release|Win32
+		{0465ECCD-C9C3-42E4-9536-B88A37D03D1A}.Release|x64.ActiveCfg = Release|Win32
+		{0465ECCD-C9C3-42E4-9536-B88A37D03D1A}.Release|x86.ActiveCfg = Release|Win32
+		{0465ECCD-C9C3-42E4-9536-B88A37D03D1A}.Release|x86.Build.0 = Release|Win32
+		{DD072D09-4465-4B29-9444-5540EE7D1008}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{DD072D09-4465-4B29-9444-5540EE7D1008}.Debug|x64.ActiveCfg = Debug|x64
+		{DD072D09-4465-4B29-9444-5540EE7D1008}.Debug|x64.Build.0 = Debug|x64
+		{DD072D09-4465-4B29-9444-5540EE7D1008}.Debug|x86.ActiveCfg = Debug|Win32
+		{DD072D09-4465-4B29-9444-5540EE7D1008}.Debug|x86.Build.0 = Debug|Win32
+		{DD072D09-4465-4B29-9444-5540EE7D1008}.Release|Any CPU.ActiveCfg = Release|Win32
+		{DD072D09-4465-4B29-9444-5540EE7D1008}.Release|x64.ActiveCfg = Release|x64
+		{DD072D09-4465-4B29-9444-5540EE7D1008}.Release|x64.Build.0 = Release|x64
+		{DD072D09-4465-4B29-9444-5540EE7D1008}.Release|x86.ActiveCfg = Release|Win32
+		{DD072D09-4465-4B29-9444-5540EE7D1008}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
