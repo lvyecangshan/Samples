@@ -9,7 +9,7 @@ int Add(int a, int b)
 {
 	int result = a + b;
 
-	Console::WriteLine(JsonConvert::SerializeObject(result));
+	Console::WriteLine(JsonConvert::SerializeObject("–Ú¡–ªØ≤‚ ‘"));
 
 	return result;
 }

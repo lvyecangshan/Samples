@@ -6,9 +6,9 @@
 #define API_DECLSPEC  __declspec(dllimport)
 #endif
 
-API_DECLSPEC  class MyMath
+class API_DECLSPEC MyMath
 {
 public:
-	API_DECLSPEC int Add(int a, int b);
+	int  Add(int a, int b);
 };
 

@@ -7,10 +7,10 @@
 #endif
 
 namespace MathLib2 {
-	API_DECLSPEC class MyMathWrapper2
+	class API_DECLSPEC MyMathWrapper2
 	{
 	public:
-		API_DECLSPEC int Add(int a, int b);
+		int   Add(int a, int b);
 	};
 }
 
