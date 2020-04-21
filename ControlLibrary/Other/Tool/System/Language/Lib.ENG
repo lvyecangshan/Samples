@@ -1,0 +1,127 @@
+[WinPreDefined]
+ID1 = OK
+ID2 = Cancel
+ID3 = Abort
+ID4 = Retry
+ID5 = Ignore
+ID6 = Yes
+ID7 = No
+ID8 = Close
+ID9 = Help
+ID10 = Try Again
+ID11 = Continue
+
+[UserDefined]
+ID1 = ATTENTION
+ID2 = ERROR
+ID3 = QUESTION
+ID4 = INFORMATION
+ID5 = Manual Maintenance
+ID6 = Module
+ID7 = Package
+ID8 = Ready
+ID9 = Error
+ID10 = Busy...
+ID11 = Stopped
+ID12 = Alarm
+ID13 = Positive Limit Hit
+ID14 = Negative Limit Hit
+ID15 = Dist. Must be Bigger than 0
+ID16 = A motor location has been changed! Please move MOTOR motor back to LOCATION location before continue.
+ID17 = An output has been modified! Please change OUTPUT back to STATE state before continue.
+ID18 = Some manual action has not done yet, please wait...
+ID19 = Action from MOTOR motor has not done yet, please wait...
+ID20 = Action from output OUTPUT has not done yet, please wait...
+ID21 = Motor is moving or busy, cannot assign the position
+ID22 = Motor is alarm or at limit sensor position, cannot assign the position
+ID23 = Are you sure you want to use position [POSITION] as [LOCATION] of [MOTOR]£¿
+
+[ControlWin107]
+Title = I/O
+ID4053 = Input
+ID4054 = Output
+
+[ControlWin4007]
+ID1033 = Quit Manual Mode
+ID1035 = Previous
+ID1036 = Next
+
+[ControlWin4008]
+Title = Motor
+ID1053 = Ready
+ID1055 = Alarm
+ID1057 = + EL
+ID1059 = - EL
+ID1054 = Home
+ID1058 = In Pos
+ID1060 = Servo
+ID1106 = Home
+ID1107 = Stop
+ID1108 = Servo On
+ID1111 = Move
+ID1112 = Save
+ID1113 = Edit Motor Params...
+ID1114 = Servo Off
+ID1115 = Save as selected location...
+ID4025 = Status
+ID4026 = Position
+ID4027 = Pos. Error
+ID4028 = Location
+ID4029 = Calculated Position
+ID4030 = Offset
+ID4031 = Final Position
+ID4034 = Jog (Home not Needed, User with Great Carefulness!!!)
+ID4057 = Start move after button pressed, stop when is button up
+ID4058 = Move a relative distance
+ID4059 = (If error is too big, do a homing)
+
+[ControlWin4019]
+Title = Motor Parameters
+ID4032 = Speed Mode
+ID4036 = Default Speed
+ID4037 = Start
+ID4038 = Max
+ID4039 = TACC
+ID4040 = TDEC
+ID4041 = Start
+ID4042 = Max
+ID4043 = TACC
+ID4044 = TDEC
+ID4045 = Start
+ID4046 = Max
+ID4047 = TACC
+ID4048 = TDEC
+ID4049 = Virtual Home (mm)
+ID4050 = Leave Home (mm)
+ID4051 = Middle Speed
+ID4052 = Home Speed
+
+[UserManagementWin2002]
+Title = Change User Name
+ID2044 = Current User Name
+ID2030 = New User Name
+
+[UserManagementWin2008]
+Title = Login
+ID2031 = User Name
+ID2037 = Password
+
+[UserManagementWin2011]
+Title = Change Password
+ID2031 = User Name
+ID2032 = Current Password
+ID2033 = New Password
+ID2034 = Confirm New Password
+[MachineMessage]
+M0001 = Open lot first before running the machine
+M0002 = Emergency Stopped! please clear all units inside machine and re-initialize machine before continue.
+M0010 = #NAME# home failed!
+M0011 = #NAME# move to #LOCATION# failed
+M0012 = #NAME# doing absolute move failed
+M0013 = #NAME# doing relative move failed
+M0020 = #NAME# is in wrong state, should be ON
+M0021 = #NAME# is in wrong state, should be OFF
+M0022 = Waiting for sensor #NAME# to be ON timeout
+M0023 = Waiting for sensor #NAME# to be OFF timeout
+M0030 = Waiting for event #NAME# to be ON timeout
+M0031 = Waiting for event #NAME# to be OFF timeout

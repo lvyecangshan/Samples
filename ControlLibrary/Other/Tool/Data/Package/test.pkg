@@ -1,0 +1,119 @@
+[General]
+Name=test
+Description=
+ID=1
+Enabled=YES
+[Motor1]
+SpeedMode=0
+Speed1Percentage=1.000000
+Speed2Percentage=1.000000
+Speed3Percentage=1.000000
+Location1Offset=69.000000
+Location2Offset=-91.000000
+Location3Offset=20.000000
+[Motor2]
+SpeedMode=0
+Speed1Percentage=1.000000
+Speed2Percentage=1.000000
+Speed3Percentage=1.000000
+Location1Offset=-85.000000
+Location2Offset=-80.000000
+Location3Offset=-58.000000
+Location4Offset=-112.000000
+Location5Offset=-340.000000
+Location6Offset=-350.000000
+Location7Offset=-360.000000
+[Motor3]
+SpeedMode=3
+Speed1Percentage=1.000000
+Speed2Percentage=1.000000
+Speed3Percentage=1.000000
+Location1Offset=325.000000
+Location2Offset=-20.000000
+[Motor4]
+SpeedMode=0
+Speed1Percentage=1.000000
+Speed2Percentage=1.000000
+Speed3Percentage=1.000000
+Location1Offset=-324.000000
+Location2Offset=19.500000
+Location3Offset=-146.000000
+[Motor5]
+SpeedMode=0
+Speed1Percentage=1.000000
+Speed2Percentage=1.000000
+Speed3Percentage=1.000000
+Location1Offset=68.000000
+Location2Offset=-88.500000
+Location3Offset=25.000000
+[Motor6]
+SpeedMode=0
+Speed1Percentage=1.000000
+Speed2Percentage=1.000000
+Speed3Percentage=1.000000
+Location1Offset=-85.000000
+Location2Offset=-80.000000
+Location3Offset=-50.000000
+Location4Offset=-110.500000
+Location5Offset=-330.000000
+Location6Offset=-355.000000
+Location7Offset=-360.000000
+[Motor7]
+SpeedMode=0
+Speed1Percentage=1.000000
+Speed2Percentage=1.000000
+Speed3Percentage=1.000000
+Location1Offset=-15.000000
+Location2Offset=0.000000
+Location3Offset=0.000000
+Location4Offset=0.000000
+Location5Offset=0.000000
+Location6Offset=0.000000
+Location7Offset=0.000000
+[Motor8]
+SpeedMode=0
+Speed1Percentage=1.000000
+Speed2Percentage=1.000000
+Speed3Percentage=1.000000
+Location1Offset=-0.500000
+Location2Offset=0.000000
+
+[Strip]
+NumOfRowInBlock=15
+NumOfColInBlock=18
+RowPitch=3.300000
+ColPitch=3.300000
+BlockPitch=62.500000
+Length=250.000000
+Width=70.000000
+NumBlock=4
+[Magazine]
+NumStrips=20
+StripPitch=5.080000
+LastStripToBottom=0.000000
+Type=0
+
+[Laser]
+NumObj =3
+Obj1CharCount =9
+Obj2CharCount =9
+Obj3CharCount =9
+Obj4CharCount =9
+Obj5CharCount =9
+Obj6CharCount = 0
+Obj1ID =1
+Obj2ID =2
+Obj3ID =3
+Obj4ID =4
+Obj5ID =6
+Obj6ID = 0
+MaxMarkingTime=180
+
+[Vision]
+StartRow =2
+RowStep =3
+RowInVision =3
+ColInVision =2
+
+[StripMap]
+RequestRejMap=NO
