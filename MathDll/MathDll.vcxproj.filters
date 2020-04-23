@@ -24,6 +24,15 @@
     <ClInclude Include="MyMath.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="IAnima.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Rabbit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -33,6 +42,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="MyMath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Rabbit.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
