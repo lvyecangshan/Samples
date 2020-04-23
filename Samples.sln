@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathDll.GoogleUnitTests", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoRun", "DemoRun\DemoRun.vcxproj", "{C4D3517D-7573-4128-88C9-8823D618C5F7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Machine", "Machine\Machine.vcxproj", "{C1CC06DE-8E5A-4578-BD5C-917B88D2D7CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,16 @@ Global
 		{C4D3517D-7573-4128-88C9-8823D618C5F7}.Release|x64.ActiveCfg = Release|Win32
 		{C4D3517D-7573-4128-88C9-8823D618C5F7}.Release|x86.ActiveCfg = Release|Win32
 		{C4D3517D-7573-4128-88C9-8823D618C5F7}.Release|x86.Build.0 = Release|Win32
+		{C1CC06DE-8E5A-4578-BD5C-917B88D2D7CE}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{C1CC06DE-8E5A-4578-BD5C-917B88D2D7CE}.Debug|x64.ActiveCfg = Debug|x64
+		{C1CC06DE-8E5A-4578-BD5C-917B88D2D7CE}.Debug|x64.Build.0 = Debug|x64
+		{C1CC06DE-8E5A-4578-BD5C-917B88D2D7CE}.Debug|x86.ActiveCfg = Debug|Win32
+		{C1CC06DE-8E5A-4578-BD5C-917B88D2D7CE}.Debug|x86.Build.0 = Debug|Win32
+		{C1CC06DE-8E5A-4578-BD5C-917B88D2D7CE}.Release|Any CPU.ActiveCfg = Release|Win32
+		{C1CC06DE-8E5A-4578-BD5C-917B88D2D7CE}.Release|x64.ActiveCfg = Release|x64
+		{C1CC06DE-8E5A-4578-BD5C-917B88D2D7CE}.Release|x64.Build.0 = Release|x64
+		{C1CC06DE-8E5A-4578-BD5C-917B88D2D7CE}.Release|x86.ActiveCfg = Release|Win32
+		{C1CC06DE-8E5A-4578-BD5C-917B88D2D7CE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

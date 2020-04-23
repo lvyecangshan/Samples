@@ -1,0 +1,823 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{dc0993a3-278d-49fa-a0da-9bac46883425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Machine">
+      <UniqueIdentifier>{380d21a4-1e9c-4964-9b50-5390b991cb3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TranLine">
+      <UniqueIdentifier>{5dc7e7bc-6a89-4303-8b3d-52924e27647f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="parts">
+      <UniqueIdentifier>{541d50d5-a6ed-4b2b-92a0-1b2a957f9e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RunProcess">
+      <UniqueIdentifier>{d654d4fc-5bc7-40b7-bdc0-a3ee6082da90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TranLine\Core">
+      <UniqueIdentifier>{88adea4f-f0fd-4e77-a6ce-e54fbae5f456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TranLine\Mylar">
+      <UniqueIdentifier>{4ba0a0da-ea8a-4cb0-977a-3ffe63a7b4aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\writesmall.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\buttons.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\filelarge.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\filesmall.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\info.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Machine.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Machine.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MachineDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\main.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MainH.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\nav_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\nav_large_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Operate_Large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pages.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pages_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pages_small.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pages_small_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\start.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\System_Large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbarModule.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\writelarge.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\writesma.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimatedLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HistoryPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Machine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineMaintenance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineMonitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineProduct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MaintenancePage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MesSetDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleMonitorPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OverViewPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParameterInputDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParameterPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductMotorPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestToolDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManageDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CalendarBar.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSocket.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientThread.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Comport.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateDump.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCtrlEx.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="VisionClient.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="RobotClient.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="HmsLaser_Tcp.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcess.cpp">
+      <Filter>Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineCtrl.cpp">
+      <Filter>Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="Server_Tcp.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Pallet.cpp">
+      <Filter>Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcessOnloadShellStack.cpp">
+      <Filter>Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcessOffloadShellStack.cpp">
+      <Filter>Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcessFeederTray.cpp">
+      <Filter>Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcessOnloadShellPNP.cpp">
+      <Filter>Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcessCleanShellBefor.cpp">
+      <Filter>Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcessCleanShell.cpp">
+      <Filter>Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcessCleanShellAfter.cpp">
+      <Filter>Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcessCarryShellPnP.cpp">
+      <Filter>Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcessBatteryInShell.cpp">
+      <Filter>Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcessBatteryCore.cpp">
+      <Filter>Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcessOnloadCore.cpp">
+      <Filter>Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcessNgLine.cpp">
+      <Filter>Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="NetSenseClient.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcessBatteryInShellOffloadPnP.cpp">
+      <Filter>Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcessRobot.cpp">
+      <Filter>Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcessMES.cpp">
+      <Filter>Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="LogFile.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineAbout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineRegeditDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AndongDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AndonFeedDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcessReadCodeConveyer.cpp">
+      <Filter>Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="CCDCheckClient.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="EditableListCtrl\EditableListCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditableListCtrl\ListCtrlCombo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditableListCtrl\ListCtrlEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CzMES.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CzOpcClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcess\RunProcessOnLoadOrOffPlate.cpp">
+      <Filter>RunProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcess\RunProcessElevator.cpp">
+      <Filter>RunProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcess\RunProcessDistributorTwo.cpp">
+      <Filter>RunProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcess\RunProcessDistributorOne.cpp">
+      <Filter>RunProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcess\RunProcessDistributor.cpp">
+      <Filter>RunProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcess\RunProcessDamper.cpp">
+      <Filter>RunProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="parts\Cylinder.cpp">
+      <Filter>parts</Filter>
+    </ClCompile>
+    <ClCompile Include="parts\Damper.cpp">
+      <Filter>parts</Filter>
+    </ClCompile>
+    <ClCompile Include="parts\Distributor.cpp">
+      <Filter>parts</Filter>
+    </ClCompile>
+    <ClCompile Include="parts\Elevator.cpp">
+      <Filter>parts</Filter>
+    </ClCompile>
+    <ClCompile Include="parts\Finger.cpp">
+      <Filter>parts</Filter>
+    </ClCompile>
+    <ClCompile Include="parts\OnLoadPlate.cpp">
+      <Filter>parts</Filter>
+    </ClCompile>
+    <ClCompile Include="parts\OnOrOffLoadPlate.cpp">
+      <Filter>parts</Filter>
+    </ClCompile>
+    <ClCompile Include="parts\Vacuum.cpp">
+      <Filter>parts</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Core\RunProcessCoreDust.cpp">
+      <Filter>TranLine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Core\RunProcessCoreOnLoad.cpp">
+      <Filter>TranLine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Core\RunProcessCoreOnLoad1.cpp">
+      <Filter>TranLine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Core\RunProcessCoreOnLoad2.cpp">
+      <Filter>TranLine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Core\RunProcessDamperCoreDown06.cpp">
+      <Filter>TranLine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Core\RunProcessDamperCoreDown08.cpp">
+      <Filter>TranLine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Core\RunProcessDistributorCoreDustBefore.cpp">
+      <Filter>TranLine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Core\RunProcessDistributorOnLoadBefore.cpp">
+      <Filter>TranLine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Core\RunProcessDistributorPlateDustBefore.cpp">
+      <Filter>TranLine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Core\RunProcessElevatorCore.cpp">
+      <Filter>TranLine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Core\RunProcessPlateDust.cpp">
+      <Filter>TranLine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Mylar\RunProcessDamperMylarDwon03.cpp">
+      <Filter>TranLine\Mylar</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Mylar\RunProcessDamperMylarDwon04.cpp">
+      <Filter>TranLine\Mylar</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Mylar\RunProcessDamperMylarUp03.cpp">
+      <Filter>TranLine\Mylar</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Mylar\RunProcessDamperMylarUp04.cpp">
+      <Filter>TranLine\Mylar</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Mylar\RunProcessDamperMylarUp05.cpp">
+      <Filter>TranLine\Mylar</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Mylar\RunProcessDistributorMylarOffLoad1.cpp">
+      <Filter>TranLine\Mylar</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Mylar\RunProcessDistributorMylarOffLoad2.cpp">
+      <Filter>TranLine\Mylar</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Mylar\RunProcessDistributorMylarOnLoad.cpp">
+      <Filter>TranLine\Mylar</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Mylar\RunProcessElevatorMylar.cpp">
+      <Filter>TranLine\Mylar</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Mylar\RunProcessOffLoad.cpp">
+      <Filter>TranLine\Mylar</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Mylar\RunProcessOffLoadMylar1.cpp">
+      <Filter>TranLine\Mylar</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Mylar\RunProcessOffLoadMylar2.cpp">
+      <Filter>TranLine\Mylar</Filter>
+    </ClCompile>
+    <ClCompile Include="parts\LineMotor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TranLine\Mylar\RunProcessCleanFrontDistributor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcess\RunProcessCleanOnLoad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcess\RunProcessRunProcessLongEdgeClean.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcess\RunProcessRunProcessLongEdgeFeeder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcess\RunProcessRunProcessShortEdgeClean.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RunProcess\RunProcessRunProcessShortEdgeFeeder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="parts\Stopper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="parts\SCtrolCylinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="parts\PressCoreCylinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="parts\LineMotorThread.cpp">
+      <Filter>parts</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Machine.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimatedLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HistoryPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Machine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineMaintenance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineMonitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineProduct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MaintenancePage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemDC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MesSetDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleMonitorPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OverViewPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParameterInputDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParameterPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductMotorPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestToolDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManageDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSocket.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="CalendarBar.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientThread.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Comport.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlEx.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTree.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="GenerateDump.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="VisionClient.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="RobotClient.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="HmsLaser_Tcp.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="RunProcess.h">
+      <Filter>Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineCtrl.h">
+      <Filter>Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="Server_Tcp.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Pallet.h">
+      <Filter>Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="RunProcessOnloadShellStack.h">
+      <Filter>Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="RunProcessOffloadShellStack.h">
+      <Filter>Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="RunProcessFeederTray.h">
+      <Filter>Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="RunProcessOnloadShellPNP.h">
+      <Filter>Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="RunProcessCleanShellBefor.h">
+      <Filter>Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="RunProcessCleanShell.h">
+      <Filter>Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="RunProcessCleanShellAfter.h">
+      <Filter>Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="RunProcessCarryShellPnP.h">
+      <Filter>Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="RunProcessBatteryInShell.h">
+      <Filter>Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="RunProcessBatteryCore.h">
+      <Filter>Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="RunProcessOnloadCore.h">
+      <Filter>Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="RunProcessNgLine.h">
+      <Filter>Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="NetSenseClient.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="RunProcessBatteryInShellOffloadPnP.h">
+      <Filter>Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="RunProcessRobot.h">
+      <Filter>Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="RunProcessMES.h">
+      <Filter>Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="LogFile.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineAbout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineRegeditDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AndongDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AndonFeedDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RunProcessReadCodeConveyer.h">
+      <Filter>Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="CCDCheckClient.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="EditableListCtrl\EditableListCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditableListCtrl\ListCtrlCombo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditableListCtrl\ListCtrlEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CzMES.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CzOpcClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RunProcess\RunProcessOnLoadOrOffPlate.h">
+      <Filter>RunProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="RunProcess\RunProcessElevator.h">
+      <Filter>RunProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="RunProcess\RunProcessDistributorTwo.h">
+      <Filter>RunProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="RunProcess\RunProcessDistributorOne.h">
+      <Filter>RunProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="RunProcess\RunProcessDistributor.h">
+      <Filter>RunProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="RunProcess\RunProcessDamper.h">
+      <Filter>RunProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="parts\Cylinder.h">
+      <Filter>parts</Filter>
+    </ClInclude>
+    <ClInclude Include="parts\Damper.h">
+      <Filter>parts</Filter>
+    </ClInclude>
+    <ClInclude Include="parts\Distributor.h">
+      <Filter>parts</Filter>
+    </ClInclude>
+    <ClInclude Include="parts\Elevator.h">
+      <Filter>parts</Filter>
+    </ClInclude>
+    <ClInclude Include="parts\Finger.h">
+      <Filter>parts</Filter>
+    </ClInclude>
+    <ClInclude Include="parts\OnLoadPlate.h">
+      <Filter>parts</Filter>
+    </ClInclude>
+    <ClInclude Include="parts\OnOrOffLoadPlate.h">
+      <Filter>parts</Filter>
+    </ClInclude>
+    <ClInclude Include="parts\Vacuum.h">
+      <Filter>parts</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Core\RunProcessCoreDust.h">
+      <Filter>TranLine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Core\RunProcessCoreOnLoad.h">
+      <Filter>TranLine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Core\RunProcessCoreOnLoad1.h">
+      <Filter>TranLine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Core\RunProcessCoreOnLoad2.h">
+      <Filter>TranLine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Core\RunProcessDamperCoreDown06.h">
+      <Filter>TranLine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Core\RunProcessDamperCoreDown08.h">
+      <Filter>TranLine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Core\RunProcessDistributorCoreDustBefore.h">
+      <Filter>TranLine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Core\RunProcessDistributorOnLoadBefore.h">
+      <Filter>TranLine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Core\RunProcessDistributorPlateDustBefore.h">
+      <Filter>TranLine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Core\RunProcessElevatorCore.h">
+      <Filter>TranLine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Core\RunProcessPlateDust.h">
+      <Filter>TranLine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Mylar\RunProcessDamperMylarDwon03.h">
+      <Filter>TranLine\Mylar</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Mylar\RunProcessDamperMylarDwon04.h">
+      <Filter>TranLine\Mylar</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Mylar\RunProcessDamperMylarUp03.h">
+      <Filter>TranLine\Mylar</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Mylar\RunProcessDamperMylarUp04.h">
+      <Filter>TranLine\Mylar</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Mylar\RunProcessDamperMylarUp05.h">
+      <Filter>TranLine\Mylar</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Mylar\RunProcessDistributorMylarOffLoad1.h">
+      <Filter>TranLine\Mylar</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Mylar\RunProcessDistributorMylarOffLoad2.h">
+      <Filter>TranLine\Mylar</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Mylar\RunProcessDistributorMylarOnLoad.h">
+      <Filter>TranLine\Mylar</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Mylar\RunProcessElevatorMylar.h">
+      <Filter>TranLine\Mylar</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Mylar\RunProcessOffLoad.h">
+      <Filter>TranLine\Mylar</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Mylar\RunProcessOffLoadMylar1.h">
+      <Filter>TranLine\Mylar</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Mylar\RunProcessOffLoadMylar2.h">
+      <Filter>TranLine\Mylar</Filter>
+    </ClInclude>
+    <ClInclude Include="parts\LineMotor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TranLine\Mylar\RunProcessCleanFrontDistributor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="runprocess\runprocesscleanonload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="runprocess\runprocessrunprocesslongedgeclean.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="runprocess\runprocessrunprocesslongedgefeeder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="runprocess\runprocessrunprocessshortedgeclean.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="runprocess\runprocessrunprocessshortedgefeeder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="parts\presscorecylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="parts\stopper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="parts\sctrolcylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="parts\LineMotorThread.h">
+      <Filter>parts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="ReportFile.lib" />
+  </ItemGroup>
+</Project>

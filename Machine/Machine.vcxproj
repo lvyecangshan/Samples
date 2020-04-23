@@ -1,0 +1,593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C1CC06DE-8E5A-4578-BD5C-917B88D2D7CE}</ProjectGuid>
+    <RootNamespace>Machine</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IncludePath>..\ControlLibrary\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\ControlLibrary\Lib;$(LibraryPath)</LibraryPath>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IncludePath>E:\ControlLibrary\Include;E:\ControlLibrary\IncludeEX;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\ControlLibrary\X64 Lib;E:\ControlLibrary\X64 LibEX;$(LibraryPath)</LibraryPath>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\ControlLibrary\Library_SDK\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\ControlLibrary\Library_SDK\Library;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\ControlLibrary\Library_SDK\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\ControlLibrary\Library_SDK\Library;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>LibraryBase.lib;EasyAutoControl.lib;CommonSupport.lib;CommProtocol.lib;EasyAutoControlEx.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\ControlLibrary\Library_SDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\ControlLibrary\Library_SDK\Library;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Winmm.lib;LibraryBase.lib;EasyAutoControl.lib;CommonSupport.lib;CZmotionDll.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\ControlLibrary\Library_SDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>D:\ControlLibrary\LibEX;D:\ControlLibrary\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>CommonSupport.lib;EasyAutoControl.lib;LibraryBase.lib;CommProtocol.lib;EasyAutoControlEx.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\ControlLibrary\Library_SDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>D:\ControlLibrary\LibEX;D:\ControlLibrary\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>CommonSupport.lib;EasyAutoControl.lib;LibraryBase.lib;CommProtocol.lib;EasyAutoControlEx.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\buttons.bmp" />
+    <None Include="res\filelarge.bmp" />
+    <None Include="res\filesmall.bmp" />
+    <None Include="res\info.bmp" />
+    <None Include="res\Machine.ico" />
+    <None Include="res\Machine.rc2" />
+    <None Include="res\MachineDoc.ico" />
+    <None Include="res\main.bmp" />
+    <None Include="res\MainH.bmp" />
+    <None Include="res\nav_large.bmp" />
+    <None Include="res\nav_large_hc.bmp" />
+    <None Include="res\Operate_Large.bmp" />
+    <None Include="res\pages.bmp" />
+    <None Include="res\pages_hc.bmp" />
+    <None Include="res\pages_small.bmp" />
+    <None Include="res\pages_small_hc.bmp" />
+    <None Include="res\ribbon.mfcribbon-ms" />
+    <None Include="res\start.ico" />
+    <None Include="res\System_Large.bmp" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="res\toolbarModule.bmp" />
+    <None Include="res\writelarge.bmp" />
+    <None Include="res\writesma.bmp" />
+    <None Include="res\writesmall.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AndonFeedDlg.cpp" />
+    <ClCompile Include="AndongDlg.cpp" />
+    <ClCompile Include="AnimatedLayout.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="CalendarBar.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="CCDCheckClient.cpp" />
+    <ClCompile Include="ClientSocket.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ClientThread.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Comport.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="CzMES.cpp" />
+    <ClCompile Include="CzOpcClient.cpp" />
+    <ClCompile Include="EditableListCtrl\EditableListCtrl.cpp" />
+    <ClCompile Include="EditableListCtrl\ListCtrlCombo.cpp" />
+    <ClCompile Include="EditableListCtrl\ListCtrlEdit.cpp" />
+    <ClCompile Include="GenerateDump.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="HistoryPage.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="HmsLaser_Tcp.cpp" />
+    <ClCompile Include="ListCtrlEx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="LogFile.cpp" />
+    <ClCompile Include="Machine.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="MachineAbout.cpp" />
+    <ClCompile Include="MachineCtrl.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="MachineDoc.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="MachineMaintenance.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="MachineMonitor.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="MachineProduct.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="MachineRegeditDlg.cpp" />
+    <ClCompile Include="MachineView.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="MaintenancePage.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="MesSetDlg.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ModuleMonitorPage.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ModuleView.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="NetSenseClient.cpp" />
+    <ClCompile Include="OutputView.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="OverViewPage.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Pallet.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ParameterInputDlg.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ParameterPage.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="parts\Cylinder.cpp" />
+    <ClCompile Include="parts\Damper.cpp" />
+    <ClCompile Include="parts\Distributor.cpp" />
+    <ClCompile Include="parts\Elevator.cpp" />
+    <ClCompile Include="parts\Finger.cpp" />
+    <ClCompile Include="parts\LineMotor.cpp" />
+    <ClCompile Include="parts\LineMotorThread.cpp" />
+    <ClCompile Include="parts\OnLoadPlate.cpp" />
+    <ClCompile Include="parts\OnOrOffLoadPlate.cpp" />
+    <ClCompile Include="parts\PressCoreCylinder.cpp" />
+    <ClCompile Include="parts\SCtrolCylinder.cpp" />
+    <ClCompile Include="parts\Stopper.cpp" />
+    <ClCompile Include="parts\Vacuum.cpp" />
+    <ClCompile Include="ProductDlg.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ProductMotorPage.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="RobotClient.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="RunProcess.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="RunProcessBatteryCore.cpp" />
+    <ClCompile Include="RunProcessBatteryInShell.cpp" />
+    <ClCompile Include="RunProcessBatteryInShellOffloadPnP.cpp" />
+    <ClCompile Include="RunProcessCarryShellPnP.cpp" />
+    <ClCompile Include="RunProcessCleanShell.cpp" />
+    <ClCompile Include="RunProcessCleanShellAfter.cpp" />
+    <ClCompile Include="RunProcessCleanShellBefor.cpp" />
+    <ClCompile Include="RunProcessFeederTray.cpp" />
+    <ClCompile Include="RunProcessMES.cpp" />
+    <ClCompile Include="RunProcessNgLine.cpp" />
+    <ClCompile Include="RunProcessOffloadShellStack.cpp" />
+    <ClCompile Include="RunProcessOnloadCore.cpp" />
+    <ClCompile Include="RunProcessOnloadShellPNP.cpp" />
+    <ClCompile Include="RunProcessOnloadShellStack.cpp" />
+    <ClCompile Include="RunProcessReadCodeConveyer.cpp" />
+    <ClCompile Include="RunProcessRobot.cpp" />
+    <ClCompile Include="RunProcess\RunProcessCleanOnLoad.cpp" />
+    <ClCompile Include="RunProcess\RunProcessDamper.cpp" />
+    <ClCompile Include="RunProcess\RunProcessDistributor.cpp" />
+    <ClCompile Include="RunProcess\RunProcessDistributorOne.cpp" />
+    <ClCompile Include="RunProcess\RunProcessDistributorTwo.cpp" />
+    <ClCompile Include="RunProcess\RunProcessElevator.cpp" />
+    <ClCompile Include="RunProcess\RunProcessOnLoadOrOffPlate.cpp" />
+    <ClCompile Include="RunProcess\RunProcessRunProcessLongEdgeClean.cpp" />
+    <ClCompile Include="RunProcess\RunProcessRunProcessLongEdgeFeeder.cpp" />
+    <ClCompile Include="RunProcess\RunProcessRunProcessShortEdgeClean.cpp" />
+    <ClCompile Include="RunProcess\RunProcessRunProcessShortEdgeFeeder.cpp" />
+    <ClCompile Include="Server_Tcp.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TestToolDlg.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TranLine\Core\RunProcessCoreDust.cpp" />
+    <ClCompile Include="TranLine\Core\RunProcessCoreOnLoad.cpp" />
+    <ClCompile Include="TranLine\Core\RunProcessCoreOnLoad1.cpp" />
+    <ClCompile Include="TranLine\Core\RunProcessCoreOnLoad2.cpp" />
+    <ClCompile Include="TranLine\Core\RunProcessDamperCoreDown06.cpp" />
+    <ClCompile Include="TranLine\Core\RunProcessDamperCoreDown08.cpp" />
+    <ClCompile Include="TranLine\Core\RunProcessDistributorCoreDustBefore.cpp" />
+    <ClCompile Include="TranLine\Core\RunProcessDistributorOnLoadBefore.cpp" />
+    <ClCompile Include="TranLine\Core\RunProcessDistributorPlateDustBefore.cpp" />
+    <ClCompile Include="TranLine\Core\RunProcessElevatorCore.cpp" />
+    <ClCompile Include="TranLine\Core\RunProcessPlateDust.cpp" />
+    <ClCompile Include="TranLine\Mylar\RunProcessCleanFrontDistributor.cpp" />
+    <ClCompile Include="TranLine\Mylar\RunProcessDamperMylarDwon03.cpp" />
+    <ClCompile Include="TranLine\Mylar\RunProcessDamperMylarDwon04.cpp" />
+    <ClCompile Include="TranLine\Mylar\RunProcessDamperMylarUp03.cpp" />
+    <ClCompile Include="TranLine\Mylar\RunProcessDamperMylarUp04.cpp" />
+    <ClCompile Include="TranLine\Mylar\RunProcessDamperMylarUp05.cpp" />
+    <ClCompile Include="TranLine\Mylar\RunProcessDistributorMylarOffLoad1.cpp" />
+    <ClCompile Include="TranLine\Mylar\RunProcessDistributorMylarOffLoad2.cpp" />
+    <ClCompile Include="TranLine\Mylar\RunProcessDistributorMylarOnLoad.cpp" />
+    <ClCompile Include="TranLine\Mylar\RunProcessElevatorMylar.cpp" />
+    <ClCompile Include="TranLine\Mylar\RunProcessOffLoad.cpp" />
+    <ClCompile Include="TranLine\Mylar\RunProcessOffLoadMylar1.cpp" />
+    <ClCompile Include="TranLine\Mylar\RunProcessOffLoadMylar2.cpp" />
+    <ClCompile Include="UserManageDlg.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="VisionClient.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Machine.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AndonFeedDlg.h" />
+    <ClInclude Include="AndongDlg.h" />
+    <ClInclude Include="AnimatedLayout.h" />
+    <ClInclude Include="CalendarBar.h" />
+    <ClInclude Include="CCDCheckClient.h" />
+    <ClInclude Include="ClientSocket.h" />
+    <ClInclude Include="ClientThread.h" />
+    <ClInclude Include="Comport.h" />
+    <ClInclude Include="CzMES.h" />
+    <ClInclude Include="CzOpcClient.h" />
+    <ClInclude Include="EditableListCtrl\EditableListCtrl.h" />
+    <ClInclude Include="EditableListCtrl\ListCtrlCombo.h" />
+    <ClInclude Include="EditableListCtrl\ListCtrlEdit.h" />
+    <ClInclude Include="GenerateDump.h" />
+    <ClInclude Include="HistoryPage.h" />
+    <ClInclude Include="HmsLaser_Tcp.h" />
+    <ClInclude Include="ListCtrlEx.h" />
+    <ClInclude Include="LogFile.h" />
+    <ClInclude Include="Machine.h" />
+    <ClInclude Include="MachineAbout.h" />
+    <ClInclude Include="MachineCtrl.h" />
+    <ClInclude Include="MachineDef.h" />
+    <ClInclude Include="MachineDoc.h" />
+    <ClInclude Include="MachineMaintenance.h" />
+    <ClInclude Include="MachineMonitor.h" />
+    <ClInclude Include="MachineProduct.h" />
+    <ClInclude Include="MachineRegeditDlg.h" />
+    <ClInclude Include="MachineView.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MaintenancePage.h" />
+    <ClInclude Include="MemDC.h" />
+    <ClInclude Include="MesSetDlg.h" />
+    <ClInclude Include="ModuleMonitorPage.h" />
+    <ClInclude Include="ModuleView.h" />
+    <ClInclude Include="MyButton.h" />
+    <ClInclude Include="NetSenseClient.h" />
+    <ClInclude Include="OutputView.h" />
+    <ClInclude Include="OverViewPage.h" />
+    <ClInclude Include="Pallet.h" />
+    <ClInclude Include="ParameterInputDlg.h" />
+    <ClInclude Include="ParameterPage.h" />
+    <ClInclude Include="parts\Cylinder.h" />
+    <ClInclude Include="parts\Damper.h" />
+    <ClInclude Include="parts\Distributor.h" />
+    <ClInclude Include="parts\Elevator.h" />
+    <ClInclude Include="parts\Finger.h" />
+    <ClInclude Include="parts\LineMotor.h" />
+    <ClInclude Include="parts\LineMotorThread.h" />
+    <ClInclude Include="parts\OnLoadPlate.h" />
+    <ClInclude Include="parts\OnOrOffLoadPlate.h" />
+    <ClInclude Include="parts\presscorecylinder.h" />
+    <ClInclude Include="parts\sctrolcylinder.h" />
+    <ClInclude Include="parts\stopper.h" />
+    <ClInclude Include="parts\Vacuum.h" />
+    <ClInclude Include="ProductDlg.h" />
+    <ClInclude Include="ProductMotorPage.h" />
+    <ClInclude Include="ReportFile.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="RobotClient.h" />
+    <ClInclude Include="RunProcess.h" />
+    <ClInclude Include="RunProcessBatteryCore.h" />
+    <ClInclude Include="RunProcessBatteryInShell.h" />
+    <ClInclude Include="RunProcessBatteryInShellOffloadPnP.h" />
+    <ClInclude Include="RunProcessCarryShellPnP.h" />
+    <ClInclude Include="RunProcessCleanShell.h" />
+    <ClInclude Include="RunProcessCleanShellAfter.h" />
+    <ClInclude Include="RunProcessCleanShellBefor.h" />
+    <ClInclude Include="RunProcessFeederTray.h" />
+    <ClInclude Include="RunProcessMES.h" />
+    <ClInclude Include="RunProcessNgLine.h" />
+    <ClInclude Include="RunProcessOffloadShellStack.h" />
+    <ClInclude Include="RunProcessOnloadCore.h" />
+    <ClInclude Include="RunProcessOnloadShellPNP.h" />
+    <ClInclude Include="RunProcessOnloadShellStack.h" />
+    <ClInclude Include="RunProcessReadCodeConveyer.h" />
+    <ClInclude Include="RunProcessRobot.h" />
+    <ClInclude Include="runprocess\runprocesscleanonload.h" />
+    <ClInclude Include="RunProcess\RunProcessDamper.h" />
+    <ClInclude Include="RunProcess\RunProcessDistributor.h" />
+    <ClInclude Include="RunProcess\RunProcessDistributorOne.h" />
+    <ClInclude Include="RunProcess\RunProcessDistributorTwo.h" />
+    <ClInclude Include="RunProcess\RunProcessElevator.h" />
+    <ClInclude Include="RunProcess\RunProcessOnLoadOrOffPlate.h" />
+    <ClInclude Include="runprocess\runprocessrunprocesslongedgeclean.h" />
+    <ClInclude Include="runprocess\runprocessrunprocesslongedgefeeder.h" />
+    <ClInclude Include="runprocess\runprocessrunprocessshortedgeclean.h" />
+    <ClInclude Include="runprocess\runprocessrunprocessshortedgefeeder.h" />
+    <ClInclude Include="Server_Tcp.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TestToolDlg.h" />
+    <ClInclude Include="TranLine\Core\RunProcessCoreDust.h" />
+    <ClInclude Include="TranLine\Core\RunProcessCoreOnLoad.h" />
+    <ClInclude Include="TranLine\Core\RunProcessCoreOnLoad1.h" />
+    <ClInclude Include="TranLine\Core\RunProcessCoreOnLoad2.h" />
+    <ClInclude Include="TranLine\Core\RunProcessDamperCoreDown06.h" />
+    <ClInclude Include="TranLine\Core\RunProcessDamperCoreDown08.h" />
+    <ClInclude Include="TranLine\Core\RunProcessDistributorCoreDustBefore.h" />
+    <ClInclude Include="TranLine\Core\RunProcessDistributorOnLoadBefore.h" />
+    <ClInclude Include="TranLine\Core\RunProcessDistributorPlateDustBefore.h" />
+    <ClInclude Include="TranLine\Core\RunProcessElevatorCore.h" />
+    <ClInclude Include="TranLine\Core\RunProcessPlateDust.h" />
+    <ClInclude Include="TranLine\Mylar\RunProcessCleanFrontDistributor.h" />
+    <ClInclude Include="TranLine\Mylar\RunProcessDamperMylarDwon03.h" />
+    <ClInclude Include="TranLine\Mylar\RunProcessDamperMylarDwon04.h" />
+    <ClInclude Include="TranLine\Mylar\RunProcessDamperMylarUp03.h" />
+    <ClInclude Include="TranLine\Mylar\RunProcessDamperMylarUp04.h" />
+    <ClInclude Include="TranLine\Mylar\RunProcessDamperMylarUp05.h" />
+    <ClInclude Include="TranLine\Mylar\RunProcessDistributorMylarOffLoad1.h" />
+    <ClInclude Include="TranLine\Mylar\RunProcessDistributorMylarOffLoad2.h" />
+    <ClInclude Include="TranLine\Mylar\RunProcessDistributorMylarOnLoad.h" />
+    <ClInclude Include="TranLine\Mylar\RunProcessElevatorMylar.h" />
+    <ClInclude Include="TranLine\Mylar\RunProcessOffLoad.h" />
+    <ClInclude Include="TranLine\Mylar\RunProcessOffLoadMylar1.h" />
+    <ClInclude Include="TranLine\Mylar\RunProcessOffLoadMylar2.h" />
+    <ClInclude Include="UserManageDlg.h" />
+    <ClInclude Include="ViewTree.h" />
+    <ClInclude Include="VisionClient.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="ReportFile.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Machine.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

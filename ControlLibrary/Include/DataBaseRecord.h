@@ -8,14 +8,14 @@ using namespace std;
 //#import "c:\program files\common files\system\ado\MSJRO.DLL" no_namespace   
 
 #pragma warning(disable:4146)
-#import "C:\Program Files\Common Files\System\ado\msado15.dll" \
+#import "..\ControlLibrary\Other\Database\msado15.dll" \
 	no_namespace \
 	rename("EOF","adoEOF") rename("DataTypeEnum","adoDataTypeEnum") \
 	rename("FieldAttributeEnum", "adoFielAttributeEnum") rename("EditModeEnum", "adoEditModeEnum") \
 	rename("LockTypeEnum", "adoLockTypeEnum") rename("RecordStatusEnum", "adoRecordStatusEnum") \
 	rename("ParameterDirectionEnum", "adoParameterDirectionEnum")
 //#import "C:\Program Files\Common Files\System\ado\MSJRO.DLL"   no_namespace   rename("ReplicaTypeEnum", "_ReplicaTypeEnum")
-#import "C:\Program Files\Common Files\System\ado\msjro.dll" rename_namespace("NewName")
+#import "..\ControlLibrary\Other\Database\msjro.dll" rename_namespace("NewName")
 
 #define PAGE_SIZE 100
 class __declspec(dllexport) CDataBaseRecord

@@ -1,0 +1,269 @@
+6.0.0.1: 0.015 04.22 14:29:53 Software Begin to Start ...
+6.0.0.1: 0.500 04.22 14:29:53 motor ConfigModule for EcatBus control.
+6.0.0.1: 0.656 04.22 14:29:53 ZMotion.I_OpenDevice()
+6.0.0.1: 0.656 04.22 14:29:53 ZMotion.SetPulseOutputMode(),axis:0
+6.0.0.1: 0.656 04.22 14:29:53 ZMotion.SetEncorderSource(),axis:0
+6.0.0.1: 0.656 04.22 14:29:53 ZMotion.SetPulseInputMode(),axis:0
+6.0.0.1: 0.656 04.22 14:29:53 ZMotion.SetAlmLogic(),axis:0
+6.0.0.1: 0.656 04.22 14:29:53 ZMotion.SetOrgLogic(),axis:0
+6.0.0.1: 0.656 04.22 14:29:53 ZMotion.SetEndLimitLogic(),axis:0
+6.0.0.1: 0.656 04.22 14:29:53 ZMotion.I_SetSvonLogic(),axis:0
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetPulseOutputMode(),axis:1
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetEncorderSource(),axis:1
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetPulseInputMode(),axis:1
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetAlmLogic(),axis:1
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetOrgLogic(),axis:1
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetEndLimitLogic(),axis:1
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.I_SetSvonLogic(),axis:1
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetPulseOutputMode(),axis:2
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetEncorderSource(),axis:2
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetPulseInputMode(),axis:2
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetAlmLogic(),axis:2
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetOrgLogic(),axis:2
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetEndLimitLogic(),axis:2
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.I_SetSvonLogic(),axis:2
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetPulseOutputMode(),axis:3
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetEncorderSource(),axis:3
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetPulseInputMode(),axis:3
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetAlmLogic(),axis:3
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetOrgLogic(),axis:3
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetEndLimitLogic(),axis:3
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.I_SetSvonLogic(),axis:3
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetPulseOutputMode(),axis:4
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetEncorderSource(),axis:4
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetPulseInputMode(),axis:4
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetAlmLogic(),axis:4
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetOrgLogic(),axis:4
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetEndLimitLogic(),axis:4
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.I_SetSvonLogic(),axis:4
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetPulseOutputMode(),axis:5
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetEncorderSource(),axis:5
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetPulseInputMode(),axis:5
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetAlmLogic(),axis:5
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetOrgLogic(),axis:5
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetEndLimitLogic(),axis:5
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.I_SetSvonLogic(),axis:5
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetPulseOutputMode(),axis:6
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetEncorderSource(),axis:6
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetPulseInputMode(),axis:6
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetAlmLogic(),axis:6
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetOrgLogic(),axis:6
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetEndLimitLogic(),axis:6
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.I_SetSvonLogic(),axis:6
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetPulseOutputMode(),axis:7
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetEncorderSource(),axis:7
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetPulseInputMode(),axis:7
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetAlmLogic(),axis:7
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetOrgLogic(),axis:7
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.SetEndLimitLogic(),axis:7
+6.0.0.1: 0.671 04.22 14:29:53 ZMotion.I_SetSvonLogic(),axis:7
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetPulseOutputMode(),axis:8
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetEncorderSource(),axis:8
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetPulseInputMode(),axis:8
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetAlmLogic(),axis:8
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetOrgLogic(),axis:8
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetEndLimitLogic(),axis:8
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.I_SetSvonLogic(),axis:8
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetPulseOutputMode(),axis:9
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetEncorderSource(),axis:9
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetPulseInputMode(),axis:9
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetAlmLogic(),axis:9
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetOrgLogic(),axis:9
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetEndLimitLogic(),axis:9
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.I_SetSvonLogic(),axis:9
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetPulseOutputMode(),axis:10
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetEncorderSource(),axis:10
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetPulseInputMode(),axis:10
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetAlmLogic(),axis:10
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetOrgLogic(),axis:10
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetEndLimitLogic(),axis:10
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.I_SetSvonLogic(),axis:10
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetPulseOutputMode(),axis:11
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetEncorderSource(),axis:11
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetPulseInputMode(),axis:11
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetAlmLogic(),axis:11
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetOrgLogic(),axis:11
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetEndLimitLogic(),axis:11
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.I_SetSvonLogic(),axis:11
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetPulseOutputMode(),axis:12
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetEncorderSource(),axis:12
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetPulseInputMode(),axis:12
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetAlmLogic(),axis:12
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetOrgLogic(),axis:12
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetEndLimitLogic(),axis:12
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.I_SetSvonLogic(),axis:12
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetPulseOutputMode(),axis:13
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetEncorderSource(),axis:13
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetPulseInputMode(),axis:13
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetAlmLogic(),axis:13
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetOrgLogic(),axis:13
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetEndLimitLogic(),axis:13
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.I_SetSvonLogic(),axis:13
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetPulseOutputMode(),axis:14
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetEncorderSource(),axis:14
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetPulseInputMode(),axis:14
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetAlmLogic(),axis:14
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetOrgLogic(),axis:14
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetEndLimitLogic(),axis:14
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.I_SetSvonLogic(),axis:14
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetPulseOutputMode(),axis:15
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetEncorderSource(),axis:15
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetPulseInputMode(),axis:15
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetAlmLogic(),axis:15
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetOrgLogic(),axis:15
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.SetEndLimitLogic(),axis:15
+6.0.0.1: 0.687 04.22 14:29:53 ZMotion.I_SetSvonLogic(),axis:15
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetPulseOutputMode(),axis:16
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetEncorderSource(),axis:16
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetPulseInputMode(),axis:16
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetAlmLogic(),axis:16
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetOrgLogic(),axis:16
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetEndLimitLogic(),axis:16
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.I_SetSvonLogic(),axis:16
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetPulseOutputMode(),axis:17
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetEncorderSource(),axis:17
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetPulseInputMode(),axis:17
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetAlmLogic(),axis:17
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetOrgLogic(),axis:17
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetEndLimitLogic(),axis:17
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.I_SetSvonLogic(),axis:17
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetPulseOutputMode(),axis:18
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetEncorderSource(),axis:18
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetPulseInputMode(),axis:18
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetAlmLogic(),axis:18
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetOrgLogic(),axis:18
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetEndLimitLogic(),axis:18
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.I_SetSvonLogic(),axis:18
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetPulseOutputMode(),axis:19
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetEncorderSource(),axis:19
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetPulseInputMode(),axis:19
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetAlmLogic(),axis:19
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetOrgLogic(),axis:19
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetEndLimitLogic(),axis:19
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.I_SetSvonLogic(),axis:19
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetPulseOutputMode(),axis:20
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetEncorderSource(),axis:20
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetPulseInputMode(),axis:20
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetAlmLogic(),axis:20
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetOrgLogic(),axis:20
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetEndLimitLogic(),axis:20
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.I_SetSvonLogic(),axis:20
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetPulseOutputMode(),axis:21
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetEncorderSource(),axis:21
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetPulseInputMode(),axis:21
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetAlmLogic(),axis:21
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetOrgLogic(),axis:21
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.SetEndLimitLogic(),axis:21
+6.0.0.1: 0.703 04.22 14:29:53 ZMotion.I_SetSvonLogic(),axis:21
+6.0.0.1: 0.703 04.22 14:29:53 Event EndOfLotEvt Reset
+6.0.0.1: 0.703 04.22 14:29:53  run created successfully
+6.0.0.1: 0.703 04.22 14:29:53 RunCtrl thread begin
+6.0.0.1: 0.718 04.22 14:29:53 RunCtrl object construction finished
+6.0.0.1: 0.718 04.22 14:29:53 Delete old log thread Quit Complete!
+6.0.0.1: 0.921 04.22 14:29:54 SingleSetMotorParam is set, package file: C:\Users\yanhongye\Desktop\¾É¿ò¼Ü\Èë¿ÇÇ°¶Î\Machine\Data\Package\positions.cfg
+6.0.0.1: 0.921 04.22 14:29:54 Motor0 Location0Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor0 Location1Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor0 Location2Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor1 Location0Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor1 Location1Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor1 Location2Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor1 Location3Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor1 Location4Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor2 Location0Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor2 Location1Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor2 Location2Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor3 Location0Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor3 Location1Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor3 Location2Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor3 Location3Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor3 Location4Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor4 Location0Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor4 Location1Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor5 Location0Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor5 Location1Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor5 Location2Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor5 Location3Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor5 Location4Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor6 Location0Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor6 Location1Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor6 Location2Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor6 Location3Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor7 Location0Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor7 Location1Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor7 Location2Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor7 Location3Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor7 Location4Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor7 Location5Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor8 Location0Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor8 Location1Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor8 Location2Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor9 Location0Postion = 100.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor9 Location1Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor9 Location2Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor10 Location0Postion = 100.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor10 Location1Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor10 Location2Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor11 Location0Postion = 100.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor11 Location1Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor11 Location2Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor11 Location3Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor11 Location4Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor11 Location5Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor11 Location6Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor11 Location7Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor11 Location8Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor12 Location0Postion = 100.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor12 Location1Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor12 Location2Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor12 Location3Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor12 Location4Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor12 Location5Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor12 Location6Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor13 Location0Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor13 Location1Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor13 Location2Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor13 Location3Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor13 Location4Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor14 Location0Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor14 Location1Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor14 Location2Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor14 Location3Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor14 Location4Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor15 Location0Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor15 Location1Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor15 Location2Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor15 Location3Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor15 Location4Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor16 Location0Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor16 Location1Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor16 Location2Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor16 Location3Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor16 Location4Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor17 Location0Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor17 Location1Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor17 Location2Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor17 Location3Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor17 Location4Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor18 Location0Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor19 Location0Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor20 Location0Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 Motor21 Location0Postion = 0.000000
+6.0.0.1: 0.921 04.22 14:29:54 User log in Maintenance page.
+6.0.0.1: 2.937 04.22 14:29:56 User log out Maintenance page.
+6.0.0.1: 2.937 04.22 14:29:56 System Thread Triggered Quit Command...
+6.0.0.1: 2.953 04.22 14:29:56 System Thread Quit Complete!
+6.0.0.1: 2.953 04.22 14:29:56 System Thread Deleted Successfully!
+6.0.0.1: 2.953 04.22 14:29:56  Thread Triggered Quit Command...
+6.0.0.1: 2.953 04.22 14:29:56  Thread Quit Complete!
+6.0.0.1: 2.953 04.22 14:29:56  Thread Deleted Successfully!
+6.0.0.1: 2.953 04.22 14:29:56  Thread Triggered Quit Command...
+6.0.0.1: 2.953 04.22 14:29:56  Thread Deleted Successfully!
+6.0.0.1: 2.953 04.22 14:29:56 CheckSwitch Thread Triggered Quit Command...
+6.0.0.1: 2.953 04.22 14:29:56 CheckSwitch Thread Quit Complete!
+6.0.0.1: 2.953 04.22 14:29:56 CheckSwitch Thread Deleted Successfully!
+6.0.0.1: 2.953 04.22 14:29:56 deleting MachineTimeManager...
+6.0.0.1: 2.953 04.22 14:29:56 deleting ModuleManager...
+6.0.0.1: 2.953 04.22 14:29:56 deleting CDeviceManager object...
+6.0.0.1: 2.953 04.22 14:29:56 ZMotion.I_CloseDevice()
+6.0.0.1: 2.953 04.22 14:29:56 deleting EventManager object...
+6.0.0.1: 2.953 04.22 14:29:56 Machine Shut Down Sequence Done, Software Will Now Exit
