@@ -1,6 +1,6 @@
 #include "pch.h"
 #include "MathLib2.h"
-#include "MyMath.h"
+#include "..\MathDll\MyMath.h"
 
 using namespace MathLib2;
 

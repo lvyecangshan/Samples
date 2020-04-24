@@ -72,7 +72,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>..\MathLib;$(IncludePath)</IncludePath>
+    <IncludePath>$(IncludePath)</IncludePath>
     <LibraryPath>..\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -157,6 +157,9 @@
     <ClCompile Include="ConsoleApplication.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MathDll\MathDll.vcxproj">
+      <Project>{8bf01de1-1f69-4b61-9cfe-699b7150a7bc}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\MathLib\MathLib.vcxproj">
       <Project>{5f7e8125-032d-4bb7-81f1-87c1ca1d64d2}</Project>
     </ProjectReference>

@@ -1,7 +1,7 @@
 #include <QtCore/QCoreApplication>
 //#include "MathLib1.h"
-#include "MathLib2.h"
-#include "MathLib3.h"
+#include "..\MathLib\MathLib2.h"
+#include "..\MathLib\MathLib3.h"
 
 using namespace System;
 

@@ -2,7 +2,8 @@
 //
 
 #include <iostream>
-#include "MathLib2.h"
+#include "..\MathLib\MathLib2.h"
+#include"..\MathDll\MyMath.h"
 
 using namespace std;
 
@@ -10,8 +11,10 @@ int main()
 {
 	using namespace MathLib2;
 
+	MyMath m;
 	MyMathWrapper2 m2;
 
+	cout << m.Add(0, 0) << endl;
 	cout << m2.Add(2, 0) << endl;
 
 	cin.get();
