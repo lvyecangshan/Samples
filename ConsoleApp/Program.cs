@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using ClassLibrary;
 using MathLib1;
 
 namespace ConsoleApp
@@ -17,6 +18,8 @@ namespace ConsoleApp
             Console.WriteLine(m1.Add(1, 0));
 
             Console.WriteLine(Add(3, 0));
+
+            T.Func();
 
             Console.Read();
         }
